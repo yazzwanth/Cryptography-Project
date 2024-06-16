@@ -31,10 +31,10 @@ def save_encrypted_file(encrypted_data, file_name):
         file.write(encrypted_data)
 
 def menu():
-    print("Choose an option:")
-    print("1. Encrypt a file")
-    print("2. Decrypt a file")
-    choice = input("Enter your choice (1 or 2): ")
+    print('''Choose an option:
+    1. Encrypt a file")
+    2. Decrypt a file")
+    choice = input("Enter your choice (1 or 2): ''')
     return choice
 
 def main():
